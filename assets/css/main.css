@@ -3251,8 +3251,16 @@ input, select, textarea {
 			background-color: #5052b5;
 		}
 
-		.wrapper.style2-alt {
-			background-color: #3e4094;
+		.wrapper.style2-darkblue {
+			background-color: darkblue;
+		}
+
+		.wrapper.style2-aqua {
+			background-color: aqua;
+		}
+
+		.wrapper.style2-black {
+			background-color: black;
 		}
 
 		.wrapper.style3 {
