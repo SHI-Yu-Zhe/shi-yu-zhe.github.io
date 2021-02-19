@@ -37,11 +37,11 @@
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h2>Abductive </h2>
-									<p>Key Words: </p>
-									<p>Motivation: </p>
-									<p>Task: </p>
-									<p>Method: </p>
+									<h2>Human-Level Abuctive Learning and Planning</h2>
+									<p>Key Words: Neural-Symbolic Learning, Abductive Reasoning, Qualitative Simulation, Inverse Planning.</p>
+									<p>Motivation: A novice Minecraft player can explore the world well from only visual observation given very little guidance thanks to the rich background knowledge (or commonsense). Can a machine learner do the same?</p>
+									<p>Task: I prepare several first-person video sequences recording a rational human player playing Minecraft and define some logic rules representing the human commonsense, e.g. Perspective Relationship.</p>
+									<p>Method: The learner models the agent operations following the idea of Qualitative Simulation, which describes the motion not step-to-step but in a high-level state-to-state way, yielding greater representative power. It exploits a Transformer model to translate the video sequence to a sequence of motion state transition signals. Then the learner tries to inference subgoals of the player by abducting an interpretation from motion observations and background knowledge. Finally, the learner generates logic programs representing the strategies learned from human players.</p>
 									<ul class="actions">
 										<li><a href="https://github.com/YuzheSHI/ABLaoi" class="button scrolly">Project</a></li>
 									</ul>
@@ -62,7 +62,7 @@
 									<h2>Waiting for the Bus: A Human-Centered Computing Perspective</h2>
 									<p>Key Words: Subjective Probability, Inverse Planning.</p>
 									<p>Motivation: How do long-term and short-term perspective affect human subjective probability of waiting for a bus? Can we design a intelligent bot that helps users feel better when waiting for some event?</p>
-									<p>Task: We design a $2\times 6$ experiment making participants waiting for a schoolbus in a virtual environment simulating the campus, within 6 scenes and 2 ways of prompts (in short-term and long-term respectively). We record the videos and interactions with the computer of 28 participants.</p>
+									<p>Human Behavior Experiments:: We design a $2\times 6$ experiment making participants waiting for a schoolbus in a virtual environment simulating the campus, within 6 scenes and 2 ways of prompts (in short-term and long-term respectively). We record the videos and interactions with the computer of 28 participants.</p>
 									<p>Method: We apply micro-expression recognition models to the videos as groundtruth of emotion states of the participants and develop a bayesian model inferencing emotion states from human interactions with the computer via inverse planning. We aim to develop a bot that selects prompting strategy adaptively for different users according to their behavior on the interface.</p>
 									<ul class="actions">
 										<li><a href="https://github.com/YuzheSHI/Waiting-Interaction-Experiment" class="button scrolly">Project</a></li>
